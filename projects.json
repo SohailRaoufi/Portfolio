@@ -9,7 +9,7 @@
     },    
     {
         "name": "Filio",
-        "desc": "File Organizer Written in Rust",
+        "desc": "Background File Organizer Written in Rust",
         "imgSrc": "/rustecean.jpg",
         "link" : "https://github.com/Masoom-Wahid/filio",
         "tech" : ["Rust", "Shell", "Notify"]
