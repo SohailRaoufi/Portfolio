@@ -17,10 +17,10 @@ function Header({
   projectsSectionActive: boolean;
 }) {
   return (
-    <div className="flex flex-col items-center ">
-      <Image src={profile} className="w-48 h-48" alt="profile picture" />
-      <h1 className="font-bold text-[2rem]">Brian Yu</h1>
-      <div className="space-x-4 text-[1.5rem]">
+    <div className="flex flex-col items-center  ">
+      <Image src={profile} className="w-64 h-64" alt="profile picture" />
+      <h1 className="font-bold text-[3rem] mt-4">Brian Yu</h1>
+      <div className="space-x-4 text-[1.5rem] ">
         <button
           onClick={() =>
             setActive({

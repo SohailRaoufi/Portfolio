@@ -6,7 +6,7 @@ import { LuGithub } from "react-icons/lu";
 function Projects() {
   return (
     <div className="">
-      <h1 className="text-[2rem] font-bold mb-6">Applicatons</h1>
+      <h1 className="text-[2rem] font-bold mb-8">Applicatons</h1>
       <div className="space-y-8">
         {projectArray.map((project) => (
           <div

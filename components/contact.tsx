@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi";
 
 function Contact() {
   return (
-    <section className="mt-8">
+    <section className="">
       <h1 className="text-[2rem] font-bold pb-4">Contact Me</h1>
       <div className="flex items-center gap-6">
         <Link href={""}>

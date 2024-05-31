@@ -11,7 +11,7 @@ function Page() {
     projectsSectionActive: false,
   });
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto py-20 space-y-10">
       <Header
         aboutSectionActive={aboutSectionActive}
         projectsSectionActive={projectsSectionActive}
