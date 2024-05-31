@@ -38,7 +38,7 @@ function Projects() {
 
                 {project?.liveDemo && (
                   <Link
-                    href={project.link}
+                    href={project.liveDemo}
                     className="flex items-center  rounded-full w-fit px-4 py-2 bg-gray-900 text-white gap-2 my-6"
                   >
                     <FiExternalLink size={24} />
