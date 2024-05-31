@@ -5,19 +5,11 @@ function Bio() {
     <div>
       <h1 className="font-bold text-[2rem]">Hello!</h1>
       <p className="text-[1.25rem] leading-[1.65]">
-        I&apos;m Masoom Wahid, a software developer and educator living in Boston,
-        Massachusetts. I run Spanning Tree, a video series teaching topics in
-        computer science and mathematics. At Harvard University, I&apos;ve
-        created and taught courses about artificial intelligence and web
-        programming. I&apos;ve also been a course head for CS50, Harvard&apos;s
-        introductory course in computer science, and a co-instructor for CS51,
-        Harvard&apos;s course on abstraction and design in computing. I
-        currently work at Byteboard, developing a more accurate and equitable
-        process for engineering hiring. I&apos;ve worked previously at
-        Automattic, Palantir, and the National Speech and Debate Association. I
-        graduated from Harvard College in 2019 with a degree in computer science
-        and linguistics and from Harvard Graduate School of Education in 2021
-        with a master&apos;s degree in technology, innovation, and education.
+      I'm [Your Name], a Backend developer and Competitive programmer.
+      Currently, I'm expanding my knowledge by studying design principles and diving deeper into the world of competitive programming through the Competitive Programming Handbook.
+      With a strong foundation in programming languages, I'm proficient in Django, Python, Go, and Rust.
+      In the past, I've had the opportunity to achieve a notable feat - I secured the 10th position in the West Asia ICPC competition.
+      I'm passionate about staying up-to-date with the latest developments in the field and exploring new technologies to improve my skills.
       </p>
     </div>
   );
