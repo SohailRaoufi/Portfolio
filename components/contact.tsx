@@ -8,13 +8,13 @@ function Contact() {
     <section className="">
       <h1 className="text-[2rem] font-bold pb-4">Contact Me</h1>
       <div className="flex items-center gap-6">
-        <Link href={""}>
+        <Link href={"https://github.com/Masoom-Wahid"}>
           <FiGithub size={48} />
         </Link>
-        <Link href={""}>
+        <Link href={"https://linkedin.com/in/masoom-wahid-b7b896268"}>
           <CiLinkedin size={48} />
         </Link>
-        <Link href={""}>
+        <Link href={"masoom.dev@proton.me"}>
           <CiMail size={48} />
         </Link>
       </div>

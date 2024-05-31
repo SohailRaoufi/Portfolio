@@ -5,7 +5,7 @@ function Bio() {
     <div>
       <h1 className="font-bold text-[2rem]">Hello!</h1>
       <p className="text-[1.25rem] leading-[1.65]">
-        I&apos;m Brian, a software developer and educator living in Boston,
+        I&apos;m Masoom Wahid, a software developer and educator living in Boston,
         Massachusetts. I run Spanning Tree, a video series teaching topics in
         computer science and mathematics. At Harvard University, I&apos;ve
         created and taught courses about artificial intelligence and web

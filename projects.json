@@ -1,16 +1,25 @@
 [
     {
-        "name": "Leetcode",
-        "desc": "Programming Contest application for Kardan University",
-        "imgSrc": "/python.png",
-        "link" : "Github link",
-        "tech" : ["Django", "Rest API", "JWT", "POSTGREs"],
+        "name": "KardanLeetcode",
+        "desc": "Official Programming Contest application for Kardan University",
+        "imgSrc": "/django.png",
+        "link" : "https://github.com/Masoom-Wahid/KardanLeetBackend",
+        "tech" : ["Django", "Rest API", "JWT", "POSTGRES"],
         "liveDemo" : "link"
-    },    {
-        "name": "Leetcode",
-        "desc": "Programming Contest application for Kardan University",
-        "imgSrc": "/python.png",
-        "link" : "Github link",
-        "tech" : ["Django", "Rest API", "JWT", "POSTGREs"]
+    },    
+    {
+        "name": "Filio",
+        "desc": "File Organizer Written in Rust",
+        "imgSrc": "/rustecean.jpg",
+        "link" : "https://github.com/Masoom-Wahid/filio",
+        "tech" : ["Rust", "Shell", "Notify"]
+    },
+    {
+        "name" : "Morasilat",
+        "desc":"Official application for transmission of documents throughout the Kabul University",
+        "imgSrc" : "/django.png",
+        "link" : "Github Link",
+        "tech" : ["Django", "Rest API", "JWT", "POSTGRES"],
+        "liveDemo" : "https://murasilat.vercel.app/per"
     }
 ]
