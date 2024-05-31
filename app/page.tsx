@@ -3,6 +3,9 @@ import Image from "next/image";
 import React, { useState } from "react";
 import profile from "@/public/profile.png";
 import Bio from "@/components/bio";
+import Contact from "@/components/contact";
+import projectArray from "@/projects.json";
+import ProjectFilesArray from "@/components/projectFilesArray";
 
 function Page() {
   const [{ about, projects }, setActive] = useState({
@@ -30,7 +33,14 @@ function Page() {
         </div>
       </div>
 
-      <Bio />
+      {about && (
+        <>
+          <Bio />
+          <Contact />
+        </>
+      )}
+
+      {projects && <ProjectFilesArray />}
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 function Bio() {
   return (
     <div>
-      <h1 className="font-bold text-lg">Hello!</h1>
+      <h1 className="font-bold text-[1.5rem]">Hello!</h1>
       <p>
         I'm Brian, a software developer and educator living in Boston,
         Massachusetts. I run Spanning Tree, a video series teaching topics in
