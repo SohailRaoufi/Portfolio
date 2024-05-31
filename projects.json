@@ -4,8 +4,7 @@
         "desc": "Official Programming Contest application for Kardan University",
         "imgSrc": "/django.png",
         "link" : "https://github.com/Masoom-Wahid/KardanLeetBackend",
-        "tech" : ["Django", "Rest API", "JWT", "POSTGRES"],
-        "liveDemo" : "link"
+        "tech" : ["Django", "Rest API", "JWT", "POSTGRES"]
     },    
     {
         "name": "Filio",
