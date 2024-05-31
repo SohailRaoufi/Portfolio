@@ -17,7 +17,6 @@
         "name" : "Morasilat",
         "desc":"Official application for transmission of documents throughout the Kabul University",
         "imgSrc" : "/django.png",
-        "link" : "Github Link",
         "tech" : ["Django", "Rest API", "JWT", "POSTGRES"],
         "liveDemo" : "https://murasilat.vercel.app/per"
     }
