@@ -11,22 +11,28 @@ function Projects() {
         {projectArray.map((project) => (
           <div
             key={project.name}
-            className="flex gap-4 bg-white shadow-lg py-4 px-8 rounded-lg"
+            className="flex gap-8 bg-white shadow-lg p-8 rounded-lg"
           >
-            <Image src={project.imgSrc} alt="" width={200} height={200} />
+            <Image
+              src={project.imgSrc}
+              alt=""
+              width={200}
+              height={200}
+              className="object-cover"
+            />
             <div className="">
-              <h3 className="text-[2rem] font-semibold ">{project.name}</h3>
-              <p className="text-[1.25rem]">{project.desc}</p>
+              <h3 className="text-[2rem] font-semibold">{project.name}</h3>
+              <p className="text-[1.25rem] text-gray-600">{project.desc}</p>
 
               <Link
                 href={project.link}
-                className="flex items-center  rounded-full w-fit px-4 py-2 bg-gray-900 text-white gap-2 mt-4"
+                className="flex items-center  rounded-full w-fit px-4 py-2 bg-gray-900 text-white gap-2 my-6"
               >
                 <LuGithub size={24} />
-                <span className="text-[1.25rem] ">GitHub</span>
+                <span className="text-[1.25rem]">GitHub</span>
               </Link>
 
-              <div className="flex gap-2 mt-4">
+              <div className="flex gap-2 ">
                 {project.tech.map((item) => (
                   <p key={item} className="bg-cyan-300 p-2 rounded-full">
                     {item}
