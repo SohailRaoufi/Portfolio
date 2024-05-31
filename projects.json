@@ -3,6 +3,13 @@
         "name": "Leetcode",
         "desc": "Programming Contest application for Kardan University",
         "imgSrc": "/python.png",
-        "link" : "Github link"
+        "link" : "Github link",
+        "tech" : ["Django", "Rest API", "JWT", "POSTGREs"]
+    },    {
+        "name": "Leetcode",
+        "desc": "Programming Contest application for Kardan University",
+        "imgSrc": "/python.png",
+        "link" : "Github link",
+        "tech" : ["Django", "Rest API", "JWT", "POSTGREs"]
     }
 ]

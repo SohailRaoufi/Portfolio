@@ -5,9 +5,9 @@ import { FiGithub } from "react-icons/fi";
 
 function Contact() {
   return (
-    <>
-      <h1 className="text-[1.5rem] font-bold">Contact Me</h1>
-      <div className="flex items-center gap-4">
+    <section className="mt-8">
+      <h1 className="text-[2rem] font-bold pb-4">Contact Me</h1>
+      <div className="flex items-center gap-6">
         <Link href={""}>
           <FiGithub size={48} />
         </Link>
@@ -18,7 +18,7 @@ function Contact() {
           <CiMail size={48} />
         </Link>
       </div>
-    </>
+    </section>
   );
 }
 
