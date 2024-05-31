@@ -1,6 +1,7 @@
 import projectArray from "@/projects.json";
 import Image from "next/image";
 import Link from "next/link";
+import { FiExternalLink } from "react-icons/fi";
 import { LuGithub } from "react-icons/lu";
 
 function Projects() {
@@ -24,14 +25,27 @@ function Projects() {
               <h3 className="text-[2rem] font-semibold">{project.name}</h3>
               <p className="text-[1.25rem] text-gray-600">{project.desc}</p>
 
-              <Link
-                href={project.link}
-                className="flex items-center  rounded-full w-fit px-4 py-2 bg-gray-900 text-white gap-2 my-6"
-              >
-                <LuGithub size={24} />
-                <span className="text-[1.25rem]">GitHub</span>
-              </Link>
+              <div className="flex  gap-2">
+                {project?.link && (
+                  <Link
+                    href={project.link}
+                    className="flex items-center  rounded-full w-fit px-4 py-2 bg-gray-900 text-white gap-2 my-6"
+                  >
+                    <LuGithub size={24} />
+                    <span className="text-[1.25rem]">GitHub</span>
+                  </Link>
+                )}
 
+                {project?.liveDemo && (
+                  <Link
+                    href={project.link}
+                    className="flex items-center  rounded-full w-fit px-4 py-2 bg-gray-900 text-white gap-2 my-6"
+                  >
+                    <FiExternalLink size={24} />
+                    <span className="text-[1.25rem]">Live Demo</span>
+                  </Link>
+                )}
+              </div>
               <div className="flex gap-2 ">
                 {project.tech.map((item) => (
                   <p key={item} className="bg-cyan-300 p-2 rounded-full">
