@@ -8,7 +8,9 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <div className="">
-      <h1 className="text-[2rem] font-bold mb-8">Applicatons</h1>
+      <h1 className="text-[2rem] font-bold mb-8 text-center lg:text-left">
+        Applicatons
+      </h1>
       <motion.div transition={{ staggerChildren: 0.5 }} className="space-y-8">
         {projectArray.map((project, idx) => (
           <motion.div
@@ -16,7 +18,7 @@ function Projects() {
             animate={{ opacity: 1 }}
             transition={{ delay: idx * 0.6 }}
             key={project.name}
-            className="flex gap-8 bg-white shadow-lg p-8 rounded-lg"
+            className="flex gap-8 bg-white shadow-lg p-8 rounded-lg flex-wrap lg:flex-nowrap"
           >
             <Image
               src={project.imgSrc}
