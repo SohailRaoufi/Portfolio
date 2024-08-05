@@ -25,9 +25,11 @@ function Header({
         sequence={[
           "Back End Enginner",
           1000,
-          "Python",
+          "Python Dev",
           1000,
           "Django Expert",
+          1000,
+          "Rust Dev",
           1000,
         ]}
         wrapper="h3"
