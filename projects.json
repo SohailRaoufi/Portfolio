@@ -35,17 +35,6 @@
     "liveDemo": "https://murasilat.vercel.app/per"
   },
   {
-    "name": "TailCompile",
-    "desc": "A Tailwind css to normal Css compiler",
-    "imgSrc": "",
-    "tech": [
-      "TypeScript",
-      "Tailwind",
-      "PostCss"
-    ],
-    "link": "https://github.com/Masoom-Wahid/tailcompile"
-  },
-  {
     "name": "Filio",
     "desc": "Background File Organizer Written in Rust",
     "imgSrc": "/rustecean.jpg",
@@ -66,5 +55,16 @@
       "Shell",
       "HttpServer"
     ]
+  },
+  {
+    "name": "TailCompile",
+    "desc": "A Tailwind css to normal Css compiler",
+    "imgSrc": "/ts.png",
+    "tech": [
+      "TypeScript",
+      "Tailwind",
+      "PostCss"
+    ],
+    "link": "https://github.com/Masoom-Wahid/tailcompile"
   }
 ]
