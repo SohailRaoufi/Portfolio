@@ -1,23 +1,70 @@
 [
-    {
-        "name": "KardanLeetcode",
-        "desc": "Official Programming Contest application for Kardan University",
-        "imgSrc": "/django.png",
-        "link" : "https://github.com/Masoom-Wahid/KardanLeetBackend",
-        "tech" : ["Django", "Rest API", "JWT", "POSTGRES"]
-    },    
-    {
-        "name": "Filio",
-        "desc": "Background File Organizer Written in Rust",
-        "imgSrc": "/rustecean.jpg",
-        "link" : "https://github.com/Masoom-Wahid/filio",
-        "tech" : ["Rust", "Shell", "Notify"]
-    },
-    {
-        "name" : "Morasilat",
-        "desc":"Official application for transmission of documents throughout the Kabul University",
-        "imgSrc" : "/django.png",
-        "tech" : ["Django", "Rest API", "JWT", "POSTGRES"],
-        "liveDemo" : "https://murasilat.vercel.app/per"
-    }
+  {
+    "name": "Drlang",
+    "desc": "A Hobby Programming Lanuage made with 'Dari' Keywords using C",
+    "imgSrc": "/c.jpg",
+    "link": "https://github.com/Masoom-Wahid/drlang",
+    "tech": [
+      "Compilers",
+      "Interpeters",
+      "C"
+    ]
+  },
+  {
+    "name": "KardanLeetcode",
+    "desc": "Official Programming Contest application for Kardan University",
+    "imgSrc": "/django.png",
+    "link": "https://github.com/Masoom-Wahid/KardanLeetBackend",
+    "tech": [
+      "Django",
+      "Rest API",
+      "JWT",
+      "POSTGRES"
+    ]
+  },
+  {
+    "name": "Morasilat",
+    "desc": "Official application for transmission of documents throughout the Kabul University",
+    "imgSrc": "/django.png",
+    "tech": [
+      "Django",
+      "Rest API",
+      "JWT",
+      "POSTGRES"
+    ],
+    "liveDemo": "https://murasilat.vercel.app/per"
+  },
+  {
+    "name": "TailCompile",
+    "desc": "A Tailwind css to normal Css compiler",
+    "imgSrc": "",
+    "tech": [
+      "TypeScript",
+      "Tailwind",
+      "PostCss"
+    ],
+    "link": "https://github.com/Masoom-Wahid/tailcompile"
+  },
+  {
+    "name": "Filio",
+    "desc": "Background File Organizer Written in Rust",
+    "imgSrc": "/rustecean.jpg",
+    "link": "https://github.com/Masoom-Wahid/filio",
+    "tech": [
+      "Rust",
+      "Shell",
+      "Notify"
+    ]
+  },
+  {
+    "name": "HttpRs",
+    "desc": "A Minimal Http Webserver Written in Rust",
+    "imgSrc": "/rustecean.jpg",
+    "link": "https://github.com/Masoom-Wahid/httprs",
+    "tech": [
+      "Rust",
+      "Shell",
+      "HttpServer"
+    ]
+  }
 ]
