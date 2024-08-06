@@ -19,7 +19,11 @@ function Header({
 }) {
   return (
     <div className="flex flex-col items-center">
-      <Image src={profile} className="w-64 h-64" alt="profile picture" />
+      <Image
+        src={profile}
+        className="w-64 h-64 rounded-full"
+        alt="profile picture"
+      />
       <h1 className="font-bold text-[3rem] text-center mt-4">Masoom Wahid</h1>
       <TypeAnimation
         sequence={[
