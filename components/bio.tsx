@@ -9,7 +9,7 @@ function Bio() {
         Currently, I&apos;am studying system design and assembly. 
         With a strong foundation in programming languages, I&apos;m proficient in Django, Python, Golang, and Rust and TypeScript.
         I have secured the 1th position in the West Asia ICPC competition.
-        I&apos;m passionate Compilers and Interpeters, hence Why I am Working On Creating One on My Own.
+        I&apos;m passionate About Compilers and Interpeters, hence Why I am Working On Creating One on My Own.
       </p>
     </div>
   );
