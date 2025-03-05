@@ -1,70 +1,34 @@
 [
   {
-    "name": "Drlang",
-    "desc": "A Hobby Programming Lanuage made with 'Dari' Keywords using C",
-    "imgSrc": "/c.jpg",
-    "link": "https://github.com/Masoom-Wahid/drlang",
+    "name": "Httpy",
+    "desc": "Httpy is a simple and lightweight HTTP server written in Python. It serves static files and directories, allowing users to browse files from their local system over a network.",
+    "imgSrc": "/python.png",
+    "link": "https://github.com/SohailRaoufi/httpy",
     "tech": [
-      "Compilers",
-      "Interpeters",
-      "C"
+      "Python",
+      "Socket",
+      "HTTP"
     ]
   },
   {
-    "name": "KardanLeetcode",
-    "desc": "Official Programming Contest application for Kardan University",
+    "name": "Dental Clinic Web App",
+    "desc": "Dental Clinic is complete Frontend and Backend Project. this project is used to manage and control overall activities of a Dental Clinic it includes features such as: Appointment, Patients, Payment, Analytics, Chat App, Backup and much more.",
     "imgSrc": "/django.png",
-    "link": "https://github.com/Masoom-Wahid/KardanLeetBackend",
+    "link": "https://github.com/SohailRaoufi/Clinic-API",
     "tech": [
       "Django",
-      "Rest API",
-      "JWT",
-      "POSTGRES"
+      "Sqlite",
+      "React"
     ]
   },
   {
-    "name": "Morasilat",
-    "desc": "Official application for transmission of documents throughout the Kabul University",
-    "imgSrc": "/django.png",
+    "name": "Driver2B",
+    "desc": "A driving app designed for learners and instructors to connect, manage lessons, and track progress.",
+    "imgSrc": "/NestJS.svg",
     "tech": [
-      "Django",
-      "Rest API",
-      "JWT",
-      "POSTGRES"
-    ],
-    "liveDemo": "https://murasilat.vercel.app/per"
-  },
-  {
-    "name": "Filio",
-    "desc": "Background File Organizer Written in Rust",
-    "imgSrc": "/rustecean.jpg",
-    "link": "https://github.com/Masoom-Wahid/filio",
-    "tech": [
-      "Rust",
-      "Shell",
-      "Notify"
+      "NestJS",
+      "PostgreSQL",
+      "Real-time Messaging"
     ]
-  },
-  {
-    "name": "HttpRs",
-    "desc": "A Minimal Http Webserver Written in Rust",
-    "imgSrc": "/rustecean.jpg",
-    "link": "https://github.com/Masoom-Wahid/httprs",
-    "tech": [
-      "Rust",
-      "Shell",
-      "HttpServer"
-    ]
-  },
-  {
-    "name": "TailCompile",
-    "desc": "A Tailwind css to normal Css compiler",
-    "imgSrc": "/ts.png",
-    "tech": [
-      "TypeScript",
-      "Tailwind",
-      "PostCss"
-    ],
-    "link": "https://github.com/Masoom-Wahid/TailCompile"
   }
 ]

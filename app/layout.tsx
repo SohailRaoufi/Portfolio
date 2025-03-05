@@ -5,7 +5,7 @@ import { Source_Code_Pro } from "next/font/google";
 const source_code_pro = Source_Code_Pro({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Masoom Wahid • Back End Engineer",
+  title: "Sohail Raoufi • Back End Developer",
 };
 
 export default function RootLayout({
